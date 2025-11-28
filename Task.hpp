@@ -31,5 +31,6 @@ class Task{
         Task();
         void CreateTask();
         void PrintTask();
-        bool RetardPerson();
+        bool SillyPerson();
+
 };
