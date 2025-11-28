@@ -67,10 +67,11 @@ void Task::PrintTask(){
     }
 }
 // Errorhandling function for task creation - assumed basic date/priority validation
-bool Task::RetardPerson(){
+bool Task::SillyPerson(){
     // Basic checks
     if (dueDate.month < 1 || dueDate.month > 12) return false;
     if (dueDate.day < 1 || dueDate.day > 31) return false;
     if (priority < 1 || priority > 5) return false;
     return true;
+
 }
